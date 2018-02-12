@@ -15,13 +15,13 @@ utilities:
     - opcache-status
     - phpmyadmin
     - webgrind
-  apigee-access:
-    - apigee-access
+  apigee:
+    - apigee
 utility-sources:
-  apigee-access: https://github.com/dingo-d/apigee-vvv-utility
+  apigee: https://github.com/dingo-d/apigee-vvv-utility
 ```
 
-The `core` utilities are there by default, and `apigee-access` doesn't depend on them.
+The `core` utilities are there by default, and `apigee` doesn't depend on them.
 
 Once you add it, be sure you re-provision your VVV with vagrant reload --provision`.
 
