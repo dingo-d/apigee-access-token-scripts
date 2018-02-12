@@ -23,5 +23,5 @@ utility-sources:
 
 The `core` utilities are there by default, and `apigee` doesn't depend on them.
 
-Once you add it, be sure you re-provision your VVV with vagrant reload --provision`.
+Once you add it, be sure you re-provision your VVV with `vagrant reload --provision`.
 
